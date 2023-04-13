@@ -1,0 +1,18 @@
+{
+  "name": "wed-inv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://JSBeatCode.github.io/wed-inv/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "build": "npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
