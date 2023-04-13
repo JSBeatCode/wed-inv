@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Kakao Scrap Share Example</title>
+    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <style>
+        div.kakao-share-button {
+            position: absolute;
+            display: inline-block;
+            background-color: #FEE500;
+            color: #3C1E1E;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 3px;
+            padding: 10px 20px;
+            cursor: pointer;
+            box-shadow: 0px 2px 2px #BDBDBD;
+        }
+
+        div.kakao-share-button:hover {
+            position: absolute;
+            background-color: #FCD800;
+            box-shadow: 0px 4px 4px #BDBDBD;
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+
+
+    </style>
+</head>
+
+<body>
+        <div class="wrapper">
+            <div class="kakao-share-button" id="kakao-scrap-btn" onclick="sendShare()">공유보내기</div>
+        </div>
+    <script>
+        // 템플릿 ID랑 javascript 앱키를 소스에 적용 필요
+        const APP_KEY = '37bf26172ac96c2e1bfd93aedce02d69'
+        const TEMPLATE_ID = 91730;
+        
+        Kakao.init(APP_KEY);
+        function sendShare() {
+            Kakao.Share.sendCustom({
+                templateId: TEMPLATE_ID,
+                templateArgs: {
+                    title: '제목 영역입니다.',
+                    description: '설명 영역입니다.',
+                },
+            });
+        }
+
+    </script>
+</body>
+
+</html>
