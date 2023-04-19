@@ -1509,11 +1509,12 @@ section {
     position: absolute;
     left: 30%;
     top: 15%;
+    margin-bottom: 10px;
   }
   #contact-account-center-div-text {
     position: absolute;
     left: 15%;
-    top: 32%;
+    top: 35%;
   }
 }
 
@@ -1527,11 +1528,12 @@ section {
     position: absolute;
     left: 40%;
     top: 15%;
+    margin-bottom: 10px;
   }
   #contact-account-center-div-text {
     position: absolute;
-    left: 31%;
-    top: 32%;
+    left: 35%;
+    top: 35%;
   }
 }
 
