@@ -44,6 +44,22 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+<style>
+.parenttest {
+  border: 1px solid blue;
+  position: relative;
+  height: 600px;
+}
+
+.childtest {
+  border: 1px solid red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+</style>
 </head>
 
 <body>
@@ -191,79 +207,7 @@
                             <img src="assets/img/weddings/06.jpg" alt="06">
                         </a>
                     </div>
-                
-                    <div class="swiper-slide">
-                        <a href="assets/img/weddings/07.jpg"
-                            data-gallery="portfolioGallery"
-                            class="portfolio-lightbox" title="">
-                            <img src="assets/img/weddings/07.jpg" alt="07">
-                        </a>
-                    </div>
-                
-                    <div class="swiper-slide">
-                        <a href="assets/img/weddings/08.jpg"
-                            data-gallery="portfolioGallery"
-                            class="portfolio-lightbox" title="">
-                            <img src="assets/img/weddings/08.jpg" alt="08">
-                        </a>
-                    </div>
-                
-                    <div class="swiper-slide">
-                        <a href="assets/img/weddings/09.jpg"
-                            data-gallery="portfolioGallery"
-                            class="portfolio-lightbox" title="">
-                            <img src="assets/img/weddings/09.jpg" alt="09">
-                        </a>
-                    </div>
-                
-                    <div class="swiper-slide">
-                        <a href="assets/img/weddings/10.jpg"
-                            data-gallery="portfolioGallery"
-                            class="portfolio-lightbox" title="">
-                            <img src="assets/img/weddings/10.jpg" alt="10">
-                        </a>
-                    </div>
-                
-                    <div class="swiper-slide">
-                        <a href="assets/img/weddings/11.jpg"
-                            data-gallery="portfolioGallery"
-                            class="portfolio-lightbox" title="">
-                            <img src="assets/img/weddings/11.jpg" alt="11">
-                        </a>
-                    </div>
-                
-                    <div class="swiper-slide">
-                        <a href="assets/img/weddings/12.jpg"
-                            data-gallery="portfolioGallery"
-                            class="portfolio-lightbox" title="">
-                            <img src="assets/img/weddings/12.jpg" alt="12">
-                        </a>
-                    </div>
-                
-                    <div class="swiper-slide">
-                        <a href="assets/img/weddings/13.jpg"
-                            data-gallery="portfolioGallery"
-                            class="portfolio-lightbox" title="">
-                            <img src="assets/img/weddings/13.jpg" alt="13">
-                        </a>
-                    </div>
-                
-                    <div class="swiper-slide">
-                        <a href="assets/img/weddings/14.jpg"
-                            data-gallery="portfolioGallery"
-                            class="portfolio-lightbox" title="">
-                            <img src="assets/img/weddings/14.jpg" alt="14">
-                        </a>
-                    </div>
-                
-                    <div class="swiper-slide">
-                        <a href="assets/img/weddings/15.jpg"
-                            data-gallery="portfolioGallery"
-                            class="portfolio-lightbox" title="">
-                            <img src="assets/img/weddings/15.jpg" alt="15">
-                        </a>
-                    </div>
-              
+                    
                   </div>
                   <div 
                     style="color: hotpink; border-radius: 20%;"
@@ -307,8 +251,14 @@
                   </a>
                 </div>
               </div>
-              <div class="map" id="map" style="width:80%;height:320px;">
-                <a id="maptarget" class="btn maptarget" onclick="mapMoveToWeddingHalls(event)">
+              <div id="maplockicon" onclick="disableClick()">
+                <i id="lockicon" class="bi bi-lock"></i>
+                <!-- <svg id="lockicon" xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="hotpink" class="bi bi-lock" viewBox="0 0 24 24">
+                  <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+                </svg> -->
+              </div>
+              <div class="map" id="map" style="width:100%;height:320px;">
+                <div id="maptarget" class="btn" onclick="mapMoveToWeddingHalls(event)">
                   <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24"
                     style="fill: hotpink">
                     <circle cx="12" cy="12" r="3"></circle>
@@ -316,7 +266,11 @@
                       d="M13 4.069V2h-2v2.069A8.008 8.008 0 0 0 4.069 11H2v2h2.069A8.007 8.007 0 0 0 11 19.931V22h2v-2.069A8.007 8.007 0 0 0 19.931 13H22v-2h-2.069A8.008 8.008 0 0 0 13 4.069zM12 18c-3.309 0-6-2.691-6-6s2.691-6 6-6 6 2.691 6 6-2.691 6-6 6z">
                     </path>
                   </svg>
-                </a>
+                </div>
+                
+                  <!-- <a class="childdiv" onclick="disableClick()">
+                    <i class="bi-lock"></i>
+                  </a> -->
               </div>
               <div id="maplocation" class="maplocation"></div>
               <!-- <div class="row justify-content-between">
@@ -328,7 +282,7 @@
               <p id="normaltype"><i style="color: #edb6f2" class="bi bi-geo-alt"></i> 서울 강서구 양천로 476 (등촌동 73-1)</p>
               <p id="normaltype"><i style="color: #edb6f2" class="bi bi-telephone"></i> 02-2692-1121</p>
               <p id="normaltype"><i style="color: #edb6f2" class="bi bi-map"></i> 가양역10번출구 7층 (롯데시내마 건물)</p>
-              <p id="normaltype"><i style="color: #edb6f2" class="bi bi-car-front"></i> 무료 주차 2시간</p>
+              <p id="normaltype"><i style="color: #edb6f2" class="bi bi-car-front"></i> 주차 2시간 무료</p>
                 <div class="row justify-content-center">
                   <div class="col-3" id="kakaomapicon">
                     <div class="col">
@@ -373,11 +327,14 @@
             </a>
           </div>
         </div>
-      <div class="row justify-content-center align-items-center">
+        <div>
+          <img src="assets/img/weddings/calendar.jpg" class="img-fluid" alt="">
+        </div>
+      <!-- <div class="row justify-content-center align-items-center">
         <a href="assets/img/weddings/calendar.jpg" data-gallery="portfolioGallery3" class="portfolio-lightbox3">
           <img src="assets/img/weddings/calendar.jpg" class="img-fluid" alt="">
         </a>
-      </div>
+      </div> -->
     </section>
 
     <!-- ======= Contact Section ======= -->
@@ -547,26 +504,26 @@
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2 id="mainnote">축하의 마음 전하기</h2>
-          <!-- <img id="invitation-flower" src="assets/img/weddings/flower.png" class="img" alt=""> -->
+          <img id="invitation-flower" src="assets/img/weddings/flower.png" class="img" alt="">
         </div>
       
         <div class="row">
           <div class="col" id="celebration-col">
-      
+      <!--
             <div id="contact-date-div-first">
               <span id="contact-date-text">date.</span>
             </div>
             <div id="contact-date-div-second">
               <span id="contact-date-text">06/24</span>
             </div>
-      
+      -->
             <div id="contact-center-div">
-              <div class="text-center">
+              <!--<div class="text-center">
                 <img src="./assets/img/weddings/invitation-flower.png" class="rounded" alt="..."
-                  style="width:80px; height:80px;" />
-              </div>
+                  style="width:80px; height:80px;" /> 
+              </div> -->
               <div class="text-center">
-                <span id="contact-center-text">축하 연락처</span>
+                <span id="contact-center-text">연락처</span>
               </div>
             </div>
       
@@ -604,37 +561,44 @@
         </div>
         <div class="row">
           <div class="col" id="celebration-account-col">
-      
+      <!--
             <div id="contact-date-div-first">
               <span id="contact-date-text">date.</span>
             </div>
             <div id="contact-date-div-second">
               <span id="contact-date-text">06/24</span>
             </div>
-      
-            <div id="contact-account-center-div">
-              <div class="text-center">
-                <img src="./assets/img/weddings/invitation-flower.png" class="rounded" alt="..."
+      -->
+            <div id="contact-center-div">
+             <!-- <div class="text-center">
+               <img src="./assets/img/weddings/invitation-flower.png" class="rounded" alt="..."
                   style="width:80px; height:80px;" />
-              </div>
+              </div> -->
               <div class="text-center">
-                <span id="contact-center-text">축하의 마음 전달하기</span>
+                <span id="contact-center-text">마음 전하기</span>
               </div>
             </div>
-
+<!--
             <div id="contact-account-center-div-text">
               <div class="text-center">
                 <p id="contact-center-text-small">축하의 마음을 담아 축의금을 전달해 보세요.</p>
-                <!-- <p id="contact-center-text-small">'계좌'를 클릭하면</p> -->
+                
                 <p id="contact-center-text-small">'계좌'를 클릭하면 계좌번호를 복사할 수 있습니다.</p>
               </div>
             </div>
-      
+-->
+<!--
+      <div class="parenttest">
+  <div class="childtest">
+<span>내용 is a href of the band that has a</span>
+  </div>
+</div>
+-->
             <div id="contact-account-box">
-              <span id="contact-text-font-default">신랑 측</span>
+              <span id="contact-account-box-subtitle">신랑 측</span>
               <div id="contact-account-pink-box-up">
                 <ul class="list-group">
-                  <li class="list-group-item bg-transparent">
+                  <li class="list-group-item bg-transparent border-pink">
                     <div style="height: 20px;">
                       <div id="contact-account-li-name">조택종</div>
                       <div id="contact-account-li-button">
@@ -645,7 +609,7 @@
                       </div>
                     </div>
                   </li>
-                  <li class="list-group-item bg-transparent">
+                  <li class="list-group-item bg-transparent border-pink">
                     <div style="height: 20px;">
                       <div id="contact-account-li-name">강정자</div>
                       <div id="contact-account-li-button">
@@ -656,7 +620,7 @@
                       </div>
                     </div>
                   </li>
-                  <li class="list-group-item bg-transparent">
+                  <li class="list-group-item bg-transparent border-pink">
                     <div style="height: 20px;">
                       <div id="contact-account-li-name">조승동</div>
                       <div id="contact-account-li-button">
@@ -669,10 +633,10 @@
                   </li>
                 </ul>
               </div>
-              <span id="contact-text-font-default">신부 측</span>
+              <span id="contact-account-box-subtitle">신부 측</span>
               <div id="contact-account-pink-box-down">
                 <ul class="list-group">
-                  <li class="list-group-item bg-transparent">
+                  <li class="list-group-item bg-transparent border-pink">
                     <div style="height: 20px;">
                       <div id="contact-account-li-name">이옥임</div>
                       <div id="contact-account-li-button">
@@ -683,7 +647,7 @@
                       </div>
                     </div>
                   </li>
-                  <li class="list-group-item bg-transparent">
+                  <li class="list-group-item bg-transparent border-pink">
                     <div style="height: 20px;">
                       <div id="contact-account-li-name">이슬기</div>
                       <div id="contact-account-li-button">
@@ -849,7 +813,7 @@
   <script type="text/javascript">
     var mapOptions = {
         center: new naver.maps.LatLng(37.56168740564802, 126.853134044059),
-        zoom: 17
+        zoom: 16
     };
     
     var map = new naver.maps.Map('map', mapOptions);
@@ -931,6 +895,26 @@
     //   var scrollPosition = window.pageYOffset;
     //   console.log("현재 스크롤 위치: " + scrollPosition);
     // })
+    const mapDiv = document.getElementById("map");
+    mapDiv.style.pointerEvents = 'none';
+    const icon = document.getElementById('lockicon');
+
+
+    function disableClick() {
+			mapDiv.style.pointerEvents = ((mapDiv.style.pointerEvents === "none") ? "auto" : "none");
+
+      console.log(icon.classList);
+      console.log(icon.classList.contains('bi-lock'));
+
+      if (icon.classList.contains('bi-lock')){
+        icon.classList.remove('bi-lock');
+        icon.classList.add('bi-unlock');
+      } else {
+        icon.classList.remove('bi-unlock');
+        icon.classList.add('bi-lock');
+        }
+		}
+
   </script>
 
   <!-- Vendor JS Files -->
