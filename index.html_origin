@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>승동♥슬기모바일청첩장</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/wedding-rings.png" rel="icon">
+  <link href="assets/img/wedding-rings.png" rel="wedding-rings">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+
+  <!-- naver map -->
+  <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=0hdbs2vkgg"></script>
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+<style>
+.parenttest {
+  border: 1px solid blue;
+  position: relative;
+  height: 600px;
+}
+
+.childtest {
+  border: 1px solid red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+</style>
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+    <a class="bi bi-list mobile-nav-toggle" onclick="toggleNavBar()"></a>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto"><i class="bx bx-home"></i></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-pencil"></i></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-photo-album"></i></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-map-pin"></i></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i></a></li>
+      </ul>
+    </nav>
+    <!-- .nav-menu -->
+
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1 id="mainnote">조승동 <span style="font-size: 0.6em;">그리고</span> 이슬기</h1>
+      <!-- <p id="mainnote-wedinv"> -->
+        <h1 style="font-family: 'Gowun Dodum', sans-serif;">결혼합니다.<h1>
+      <!-- </p> -->
+      <p style="font-family: 'Gowun Dodum', sans-serif; font-size: 0.6em;"><span class="typed" data-typed-items="가양역 더채플앳웨스트, 6/24 14:00"></span></p>
+      <div class="social-links">
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <!-- <div id="about" class="about"> -->
+        <!-- <div class="container"> -->
+          <div id="notelink" class="notelink"></div>
+          <div class="container">
+            <!-- <div class="container" data-aos="fade-up"> -->
+
+        <div class="section-title">
+          <img id="invitation-flower" src="assets/img/weddings/flower.png" class="img-fluid" alt="">
+          <br>
+          <p class="invitation-note-1">서로가 마주 보며 다져온 사랑을</p>
+          <p class="invitation-note-1">이제 함께 한 곳을 바라보며</p>
+          <p class="invitation-note-1">걸어갈 수 있는 큰 사랑으로</p>
+          <p class="invitation-note-1">키우고자 합니다.</p>
+          <p class="invitation-note-1">저희 두 사람이 사랑의 이름으로</p>
+          <p class="invitation-note-1">지켜갈 수 있도록</p>
+          <p class="invitation-note-1">앞날을 축복하고 기도해주시면</p>
+          <p class="invitation-note-1">감사하겠습니다.</p>
+          <br>
+
+          <p style="font-family: 'Gowun Dodum', sans-serif;">
+            <span class="invitation-note-1">
+              조택종 · 강정자
+            </span>
+            의 차남&nbsp;
+            <span style="font-size:1.4em; font-weight: bold;">조승동</span>
+          </p>
+          <p style="font-family: 'Gowun Dodum', sans-serif;">
+            <span class="invitation-note-1">
+              이옥임
+              <!-- <img style="width: 1.0em; height: 1.2em;" src="assets/img/weddings/chrysanthemum.png" class="img" alt="">이흥열 · 이옥임 -->
+              <!-- <img style="filter: brightness(5%); -webkit-filter: brightness(50%); -moz-filter: brightness(5%); -o-filter: brightness(5%); -ms-filter: brightness(5%); width: 1.0em; height: 1.2em;" src="assets/img/weddings/chrysanthemum.png" class="img" alt="">이흥열 · 이옥임 -->
+            </span>
+            의 장녀&nbsp;
+            <span style="font-size:1.4em; font-weight: bold;">이슬기</span>
+          </p>
+        </div>
+
+        <!-- <div class="row">
+          <div id="invitation-photo-div" class="col-lg-16 fluid">
+              <img src="assets/img/weddings/banner_02.jpg" class="img-fluid" alt="" style="width:100%">
+              <h3 id="invitation-photo-1-txt">소중한 당신을 초대합니다.</h3>
+          </div>
+        </div> -->
+
+      </div>
+    <!-- </div> -->
+    </section>
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2 id="mainnote">갤러리</h2>
+          <img id="invitation-flower" src="assets/img/weddings/flower.png" class="img-fluid" alt="">
+        </div>
+        
+        <section id="portfolio-details" class="portfolio-details">
+          <div class="container">
+        
+            <div class="row">
+        
+              <div class="col-sm-12">
+                <div class="portfolio-details-slider swiper">
+                  <div class="swiper-wrapper align-items-center">
+        
+                    <div class="swiper-slide">
+                      <a href="assets/img/weddings/01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="">
+                        <img src="assets/img/weddings/01.jpg" alt="01">
+                      </a>
+                    </div>
+        
+                    <div class="swiper-slide">
+                      <a href="assets/img/weddings/02.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="">
+                        <img src="assets/img/weddings/02.jpg" alt="">
+                      </a>
+                    </div>
+        
+                    <div class="swiper-slide">
+                      <a href="assets/img/weddings/03.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="">
+                        <img src="assets/img/weddings/03.jpg" alt="assets/img/weddings/03.jpg">
+                      </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <a href="assets/img/weddings/04.jpg"
+                          data-gallery="portfolioGallery"
+                          class="portfolio-lightbox" title="">
+                          <img src="assets/img/weddings/04.jpg" alt="04">
+                      </a>
+                    </div>
+                
+                    <div class="swiper-slide">
+                        <a href="assets/img/weddings/05.jpg"
+                            data-gallery="portfolioGallery"
+                            class="portfolio-lightbox" title="">
+                            <img src="assets/img/weddings/05.jpg" alt="05">
+                        </a>
+                    </div>
+                
+                    <div class="swiper-slide">
+                        <a href="assets/img/weddings/06.jpg"
+                            data-gallery="portfolioGallery"
+                            class="portfolio-lightbox" title="">
+                            <img src="assets/img/weddings/06.jpg" alt="06">
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><a href="assets/img/weddings/07.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><img src="assets/img/weddings/07.jpg" alt="07"></a></div>
+<div class="swiper-slide"><a href="assets/img/weddings/08.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><img src="assets/img/weddings/08.jpg" alt="08"></a></div>
+<div class="swiper-slide"><a href="assets/img/weddings/09.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><img src="assets/img/weddings/09.jpg" alt="09"></a></div>
+<div class="swiper-slide"><a href="assets/img/weddings/10.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><img src="assets/img/weddings/10.jpg" alt="10"></a></div>
+<div class="swiper-slide"><a href="assets/img/weddings/11.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><img src="assets/img/weddings/11.jpg" alt="11"></a></div>
+<div class="swiper-slide"><a href="assets/img/weddings/12.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><img src="assets/img/weddings/12.jpg" alt="12"></a></div>
+<!-- <div class="swiper-slide"><a href="assets/img/weddings/13.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><img src="assets/img/weddings/13.jpg" alt="13"></a></div> -->
+<div class="swiper-slide"><a href="assets/img/weddings/14.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><img src="assets/img/weddings/14.jpg" alt="14"></a></div>
+<div class="swiper-slide"><a href="assets/img/weddings/15.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><img src="assets/img/weddings/15.jpg" alt="15"></a></div>
+
+                  
+                    
+                  </div>
+                  <div 
+                    style="color: hotpink; border-radius: 20%;"
+                    class="swiper-button-prev"
+                  >
+                </div>
+                  <div 
+                    style="color: hotpink; border-radius: 20%;" 
+                    class="swiper-button-next"
+                  >
+                </div>
+                  <div id="swipterpagination" class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+    
+        <div class="section-title">
+          <h2 id="mainnote">오시는 길</h2>
+          <img id="invitation-flower" src="assets/img/weddings/flower.png" class="img-fluid" alt="">
+        </div>
+    
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="resume-item pb-0">    
+              <div class="row justify-content-between">
+              <!-- <div class="row justify-content-between" style="margin-top: 15px; margin-bottom: 15px">     -->
+                <div class="col-auto mr-auto centermiddle">
+                  <a id="normaltype" style="color: hotpink; font-size: 1.2em" href="http://kko.to/-AXGBoEECe">
+                    <p  style="margin-bottom: 10px;"><i class="bi bi-house-door"></i> 더채플앳웨스트</p>
+                  </a>
+                </div>
+              </div>
+              <div id="maplockicon" onclick="disableClick()">
+                <i id="lockicon" class="bi bi-lock"></i>
+                <!-- <svg id="lockicon" xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="hotpink" class="bi bi-lock" viewBox="0 0 24 24">
+                  <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+                </svg> -->
+              </div>
+              <div class="map" id="map" style="width:100%;height:320px;">
+                <div id="maptarget" class="btn" onclick="mapMoveToWeddingHalls(event)">
+                  <!-- <i id="lockicon" class="bi bi-geo-alt"></i> -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24"
+                    style="fill: black">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path
+                      d="M13 4.069V2h-2v2.069A8.008 8.008 0 0 0 4.069 11H2v2h2.069A8.007 8.007 0 0 0 11 19.931V22h2v-2.069A8.007 8.007 0 0 0 19.931 13H22v-2h-2.069A8.008 8.008 0 0 0 13 4.069zM12 18c-3.309 0-6-2.691-6-6s2.691-6 6-6 6 2.691 6 6-2.691 6-6 6z">
+                    </path>
+                  </svg>
+                </div>
+                
+                  <!-- <a class="childdiv" onclick="disableClick()">
+                    <i class="bi-lock"></i>
+                  </a> -->
+              </div>
+              <div id="maplocation" class="maplocation"></div>
+              <!-- <div class="row justify-content-between">
+                <div class="col-auto mr-auto"></div>
+                <div class="col-auto">
+                  
+                </div>
+              </div> -->
+              <p id="normaltype"><i style="color: #edb6f2" class="bi bi-geo-alt"></i> 서울 강서구 양천로 476 (등촌동 73-1)</p>
+              <p id="normaltype"><i style="color: #edb6f2" class="bi bi-telephone"></i> 02-2692-1121</p>
+              <p id="normaltype"><i style="color: #edb6f2" class="bi bi-map"></i> 가양역10번출구 7층 (롯데시내마 건물)</p>
+              <p id="normaltype"><i style="color: #edb6f2" class="bi bi-car-front"></i> 주차 2시간 무료</p>
+                <div class="row justify-content-center">
+                  <div class="col-3" id="kakaomapicon">
+                    <div class="col">
+                      <a href="http://kko.to/-AXGBoEECe">
+                        <img src="assets/img/weddings/kakaomap.png" alt="" width="50px" height="50px"/>
+                      </a>
+                    </div>
+                      <div class="col" style="font-size: 10px;">카카오</div>
+                    </div>                  
+                    <div class="col-3" id="navermapicon">
+                      <div class="col">
+                        <a href="https://naver.me/Goz5AvoB">
+                          <img src="assets/img/weddings/navermap.png" alt="" width="50px" height="50px"/>
+                        </a>
+                      </div>
+                      <div class="col" style="font-size: 10px;">네이버</div>
+                    </div>
+                    <div class="col-3" id="tmapicon">
+                      <div class="col">
+                        <a href="https://surl.tmap.co.kr/f732af4c">
+                          <img src="assets/img/weddings/tmap.png" alt="" width="50px" height="50px"/>
+                        </a>
+                      </div>
+                      <div class="col" style="font-size: 10px;">티맵</div>
+                    </div>
+                </div>
+            </div>    
+          </div>          
+        </div>
+    
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6">
+            <a href="assets/img/weddings/thechapel_west_map_01.jpg" data-gallery="portfolioGallery2"
+              class="portfolio-lightbox2">
+              <img src="assets/img/weddings/thechapel_west_map_01.jpg" class="img-fluid" alt="">
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="assets/img/weddings/thechapel_west_map_02.jpg" data-gallery="portfolioGallery2"
+              class="portfolio-lightbox2">
+              <img src="assets/img/weddings/thechapel_west_map_02.jpg" class="img-fluid" alt="">
+            </a>
+          </div>
+        </div>
+        <div>
+          <img src="assets/img/weddings/calendar.jpg" class="img-fluid" alt="">
+        </div>
+      <!-- <div class="row justify-content-center align-items-center">
+        <a href="assets/img/weddings/calendar.jpg" data-gallery="portfolioGallery3" class="portfolio-lightbox3">
+          <img src="assets/img/weddings/calendar.jpg" class="img-fluid" alt="">
+        </a>
+      </div> -->
+    </section>
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact" style="padding: 43px 0 0 0">
+      <!-- The Modal -->
+      <div class="modal" id="myModal-account-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+    
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title" id="contact-text-font-default">복사 버튼 클릭시, 복사됩니다.</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" onclick="showNavBar()"></button>
+            </div>
+    
+            <!-- Modal body -->
+            <div class="modal-body container">
+              <div class="row">
+                <div class="col-sm" id="contact-text-font-default">
+                  우리은행 (예금주만 조승동, 조택종 계좌)
+                  <div class="input-group mb-3">
+                    <input id="account-1" type="text" readonly class="form-control" value="1002034015990">
+                    <button id="accountbtn" class="btn btn-light" id="contact-text-font-default" type="button"
+                      onclick="copyText('account-1')">복사</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="showNavBar()" id="contact-text-font-default">닫기</button>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+    
+      <div class="modal" id="myModal-account-2">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+    
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title" id="contact-text-font-default">복사 버튼 클릭시, 복사됩니다.</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" onclick="showNavBar()"></button>
+            </div>
+    
+            <!-- Modal body -->
+            <div class="modal-body container">
+              <div class="row">
+                <div class="col-sm" id="contact-text-font-default">
+                  신한은행 (예금주: 강정자)
+                  <div class="input-group mb-3">
+                    <input id="account-2" type="text" readonly class="form-control" value="110393726895">
+                    <button id="accountbtn" class="btn btn-light" id="contact-text-font-default" type="button"
+                      onclick="copyText('account-2')">복사</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="showNavBar()" id="contact-text-font-default">닫기</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="myModal-account-3">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+    
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title" id="contact-text-font-default">복사 버튼 클릭시, 복사됩니다.</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" onclick="showNavBar()"></button>
+            </div>
+    
+            <!-- Modal body -->
+            <div class="modal-body container">
+              <div class="row">
+                <div class="col-sm" id="contact-text-font-default">
+                  카카오뱅크 (예금주: 조승동)
+                  <div class="input-group mb-3">
+                    <input id="account-3" type="text" readonly class="form-control" value="3333072450806">
+                    <button id="accountbtn" class="btn btn-light" id="contact-text-font-default" type="button"
+                      onclick="copyText('account-3')">복사</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="showNavBar()" id="contact-text-font-default">닫기</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="myModal-account-4">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+    
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title" id="contact-text-font-default">복사 버튼 클릭시, 복사됩니다.</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" onclick="showNavBar()"></button>
+            </div>
+    
+            <!-- Modal body -->
+            <div class="modal-body container">
+              <div class="row">
+                <div class="col-sm" id="contact-text-font-default">
+                  신한은행 (예금주: 이옥임)
+                  <div class="input-group mb-3">
+                    <input id="account-4" type="text" readonly class="form-control" value="1104417370003">
+                    <button id="accountbtn" class="btn btn-light" id="contact-text-font-default" type="button"
+                      onclick="copyText('account-4')">복사</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="showNavBar()" id="contact-text-font-default">닫기</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="myModal-account-5">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+    
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title" id="contact-text-font-default">복사 버튼 클릭시, 복사됩니다.</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" onclick="showNavBar()"></button>
+            </div>
+    
+            <!-- Modal body -->
+            <div class="modal-body container">
+              <div class="row">
+                <div class="col-sm" id="contact-text-font-default">
+                  신한은행 (예금주: 이슬기)
+                  <div class="input-group mb-3">
+                    <input id="account-5" type="text" readonly class="form-control" value="110441737003">
+                    <button id="accountbtn" class="btn btn-light" id="contact-text-font-default" type="button"
+                      onclick="copyText('account-5')">복사</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="showNavBar()" id="contact-text-font-default">닫기</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2 id="mainnote">축하의 마음 전하기</h2>
+          <img id="invitation-flower" src="assets/img/weddings/flower.png" class="img" alt="">
+        </div>
+      
+        <div class="row">
+          <div class="col" id="celebration-col">
+      <!--
+            <div id="contact-date-div-first">
+              <span id="contact-date-text">date.</span>
+            </div>
+            <div id="contact-date-div-second">
+              <span id="contact-date-text">06/24</span>
+            </div>
+      -->
+            <div id="contact-center-div">
+              <!--<div class="text-center">
+                <img src="./assets/img/weddings/invitation-flower.png" class="rounded" alt="..."
+                  style="width:80px; height:80px;" /> 
+              </div> -->
+              <div class="text-center">
+                <span id="contact-center-text">연락처</span>
+              </div>
+            </div>
+      
+            <div class="text-center" id="contact-box">
+              <div id="contact-pink-box-up">
+                <div id="contact-pink-box-name">
+                  <span id="contact-text-font-default">조승동</span>
+                </div>
+                <div id="contact-pink-phone">
+                  <a id="contact-pink-phone-style" href="tel:01055556154">
+                    <i class="bi bi-telephone-forward"></i>
+                  </a>
+                  &nbsp;&nbsp;
+                  <a id="contact-pink-phone-style" href="sms:01055556154">
+                    <i class="bi bi-chat-left-text"></i>
+                  </a>
+                </div>
+              </div>
+              <div id="contact-pink-box-down">
+                <div id="contact-pink-box-name">
+                  <span id="contact-text-font-default">이슬기</span>
+                </div>
+                <div id="contact-pink-phone">
+                  <a id="contact-pink-phone-style" href="tel:01020712378">
+                    <i class="bi bi-telephone-forward"></i>
+                  </a>
+                  &nbsp;&nbsp;
+                  <a id="contact-pink-phone-style" href="sms:01020712378">
+                    <i class="bi bi-chat-left-text"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col" id="celebration-account-col">
+      <!--
+            <div id="contact-date-div-first">
+              <span id="contact-date-text">date.</span>
+            </div>
+            <div id="contact-date-div-second">
+              <span id="contact-date-text">06/24</span>
+            </div>
+      -->
+            <div id="contact-center-div">
+             <!-- <div class="text-center">
+               <img src="./assets/img/weddings/invitation-flower.png" class="rounded" alt="..."
+                  style="width:80px; height:80px;" />
+              </div> -->
+              <div class="text-center">
+                <span id="contact-center-text">마음 전하기</span>
+              </div>
+            </div>
+<!--
+            <div id="contact-account-center-div-text">
+              <div class="text-center">
+                <p id="contact-center-text-small">축하의 마음을 담아 축의금을 전달해 보세요.</p>
+                
+                <p id="contact-center-text-small">'계좌'를 클릭하면 계좌번호를 복사할 수 있습니다.</p>
+              </div>
+            </div>
+-->
+<!--
+      <div class="parenttest">
+  <div class="childtest">
+<span>내용 is a href of the band that has a</span>
+  </div>
+</div>
+-->
+            <div id="contact-account-box">
+              <span id="contact-account-box-subtitle">신랑 측</span>
+              <div id="contact-account-pink-box-up">
+                <ul class="list-group">
+                  <li class="list-group-item bg-transparent border-pink">
+                    <div style="height: 20px;">
+                      <div id="contact-account-li-name">조택종</div>
+                      <div id="contact-account-li-button">
+                        <a type="button" data-bs-toggle="modal" data-bs-target="#myModal-account-1"
+                          onclick="hideNavBar()">
+                          <span>계좌</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item bg-transparent border-pink">
+                    <div style="height: 20px;">
+                      <div id="contact-account-li-name">강정자</div>
+                      <div id="contact-account-li-button">
+                        <a type="button" data-bs-toggle="modal" data-bs-target="#myModal-account-2"
+                          onclick="hideNavBar()">
+                          <span>계좌</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item bg-transparent border-pink">
+                    <div style="height: 20px;">
+                      <div id="contact-account-li-name">조승동</div>
+                      <div id="contact-account-li-button">
+                        <a type="button" data-bs-toggle="modal" data-bs-target="#myModal-account-3"
+                          onclick="hideNavBar()">
+                          <span>계좌</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <span id="contact-account-box-subtitle">신부 측</span>
+              <div id="contact-account-pink-box-down">
+                <ul class="list-group">
+                  <li class="list-group-item bg-transparent border-pink">
+                    <div style="height: 20px;">
+                      <div id="contact-account-li-name">이옥임</div>
+                      <div id="contact-account-li-button">
+                        <a type="button" data-bs-toggle="modal" data-bs-target="#myModal-account-4"
+                          onclick="hideNavBar()">
+                          <span>계좌</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item bg-transparent border-pink">
+                    <div style="height: 20px;">
+                      <div id="contact-account-li-name">이슬기</div>
+                      <div id="contact-account-li-button">
+                        <a type="button" data-bs-toggle="modal" data-bs-target="#myModal-account-5"
+                          onclick="hideNavBar()">
+                          <span>계좌</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div class="row">
+          <div id="contactinfo-parents" class="col">
+            <span id="accountFontStyle-parents">
+              신랑 · 신부 연락하기
+            </span>
+          </div>
+        </div> -->
+        <!-- <br> -->
+        <!-- <div class="row">
+          <div id="contactinfo-couple" class="col">
+            <span id="accountFontStyle">
+              <span style="color:cornflowerblue">신랑</span>&nbsp;조승동
+            </span>
+            &nbsp;
+            <span>
+              <a href="tel:010-5555-6154">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+                  <path
+                    d="M16.75 2h-10c-1.103 0-2 .897-2 2v16c0 1.103.897 2 2 2h10c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-10 18V4h10l.002 16H6.75z">
+                  </path>
+                  <circle cx="11.75" cy="18" r="1"></circle>
+                </svg>
+              </a>
+              &nbsp;
+              <a type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal-shinrang"
+                onclick="hideNavBar()">
+                <span style="font-size: 0.8em">마음전달</span>
+              </a>
+            </span>
+          </div>
+          <div class="w-100"></div>
+          <div id="contactinfo-couple" class="col">
+            <span id="accountFontStyle">
+              <span style="color:hotpink">신부</span>&nbsp;이슬기
+            </span>
+            &nbsp;
+            <span>
+              <a href="tel:010-2071-2378">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+                  <path
+                    d="M16.75 2h-10c-1.103 0-2 .897-2 2v16c0 1.103.897 2 2 2h10c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm-10 18V4h10l.002 16H6.75z">
+                  </path>
+                  <circle cx="11.75" cy="18" r="1"></circle>
+                </svg>
+              </a>
+              &nbsp;
+              <a type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#myModal-shinbu"
+                onclick="hideNavBar()">
+                <span style="font-size: 0.8em">마음전달</span>
+              </a>
+            </span>
+          </div>
+        </div> -->
+        <!-- <br> -->
+        <!-- <div class="row">
+          <div id="contactinfo-parents" class="col">
+            <span id="accountFontStyle-parents">
+              혼주에게 마음 전달하기
+            </span>
+          </div>
+        </div> -->
+        <!-- <br> -->
+        <!-- <div class="row" id="parentsAccountInfo">
+          <div class="col">
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th class="text-center" style="color: cornflowerblue">신랑 측 혼주</th>
+                  <th class="text-center" style="color: hotpink">신부 측 혼주</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-center">
+                    <div>
+                      <div>아버지 <span style="font-weight: bold;">조택종</span></div>
+                      <div>
+                        <div>
+                          <div>우리은행(조승동)</div>
+                          <div>1002-034-015990</div>
+                        </div>
+                        <div>
+                          <button class="btn btn-secondary btn-sm" type="button"
+                            onclick="copyAccount('신랑 부 조택종', '1002034015990')">
+                            <span style="font-size: 0.8em">복사</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="text-center">
+                    <div>
+                      <div>어머니 <span style="font-weight: bold;">이옥임</span></div>
+                      <div>OO은행</div>
+                      <div>1234-1234-1234</div>
+                      <div>
+                        <button class="btn btn-secondary btn-sm" type="button"
+                          onclick="copyAccount('신부 모 이옥임', '123412341234')">
+                          <span style="font-size: 0.8em">복사</span>
+                        </button>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center">
+                    <div>
+                      <div>어머니 <span style="font-weight: bold;">강정자</span></div>
+                      <div>OO은행</div>
+                      <div>1234-1234-1234</div>
+                      <div>
+                        <button class="btn btn-secondary btn-sm" type="button"
+                          onclick="copyAccount('신랑 모 강정자', '123412341234')">
+                          <span style="font-size: 0.8em">복사</span>
+                        </button>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="text-center"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+  </main>
+  <!-- End #main -->
+  
+  <!-- ======= Footer ======= -->
+
+ <footer id="footer">
+    <div class="container">
+      <div id="normaltype" class="copyright">
+        <!-- The creators of this invitation are a blessed pair, Seungdong Cho and Seulgi Lee, who will soon become a married couple. -->
+본 초대장은 예비신랑 조승동 제작, 예비신부 이슬기가 디자인 하였습니다.
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script type="text/javascript">
+    var mapOptions = {
+        center: new naver.maps.LatLng(37.56168740564802, 126.853134044059),
+        zoom: 16
+    };
+    
+    var map = new naver.maps.Map('map', mapOptions);
+
+    var marker = new naver.maps.Marker({
+      position: new naver.maps.LatLng(37.56168740564802, 126.853134044059),
+      map: map
+    });
+
+    var weddingHalls = new naver.maps.LatLng(37.56168740564802, 126.853134044059);
+
+    function mapMoveToWeddingHalls(event) {
+      event.preventDefault();
+      map.setCenter(weddingHalls);
+    }
+
+    function copyText(target) {
+      var copyText = document.getElementById(target);
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      document.execCommand("copy");
+      alert("복사되었습니다: " + copyText.value);
+    }
+
+    function copyAccount(name, account){
+      document.execCommand("copy");
+      alert(name + "의 계좌가 복사되었습니다: " + account);
+    }
+
+    const navbar = document.getElementById('navbar');
+
+    window.onload = function() {
+      const onloadNavBarTimeout = setTimeout(() => {
+        navbar.classList.add('active');
+        clearTimeout(onloadNavBarTimeout);
+      }, 5000);
+      
+      const onloadMoveNoteTimeout = setTimeout(() => {
+        const scrollX = window.scrollX || window.pageXOffset;
+        const scrollY = window.scrollY || window.pageYOffset;
+        if (scrollX === 0 && scrollY === 0) {
+          location.href = '#about'
+          // location.href = '#notelink'
+        }
+        clearTimeout(onloadMoveNoteTimeout);
+      }, 10000);
+    };
+
+    function hideNavBar() {
+      navbar.classList.remove('active');
+    }
+
+    function showNavBar() {
+      navbar.classList.add('active');
+    }
+
+    function toggleNavBar(){
+      navbar.classList.contains('active') ? hideNavBar() : showNavBar();
+    }
+
+    function showScrollPosition() {
+      var scrollX = window.scrollX || window.pageXOffset;
+      var scrollY = window.scrollY || window.pageYOffset;
+      var positionElement = document.getElementById("scrollPosition");
+      positionElement.innerHTML = "Scroll position: (" + scrollX + ", " + scrollY + ")";
+      console.log("(" + scrollX + ", " + scrollY + ")")
+    }
+
+    // document.addEventListener('mousemove', (event) => {
+    //     if (event.clientX < 50) { // 마우스 왼쪽 사이드에 있을 때
+    //         navbar.classList.add('active');
+    //     } else {
+    //         navbar.classList.remove('active');
+    //     }
+    // });
+
+    // document.addEventListener('click', (event) => {
+    //   console.log(event.clientY, event.clientX);
+    //   var scrollPosition = window.pageYOffset;
+    //   console.log("현재 스크롤 위치: " + scrollPosition);
+    // })
+    const mapDiv = document.getElementById("map");
+    mapDiv.style.pointerEvents = 'none';
+    const icon = document.getElementById('lockicon');
+
+
+    function disableClick() {
+			mapDiv.style.pointerEvents = ((mapDiv.style.pointerEvents === "none") ? "auto" : "none");
+
+      console.log(icon.classList);
+      console.log(icon.classList.contains('bi-lock'));
+
+      if (icon.classList.contains('bi-lock')){
+        icon.classList.remove('bi-lock');
+        icon.classList.add('bi-unlock');
+      } else {
+        icon.classList.remove('bi-unlock');
+        icon.classList.add('bi-lock');
+        }
+		}
+
+  </script>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
