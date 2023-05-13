@@ -1392,14 +1392,14 @@ section {
 
 #maplockicon {
   position: absolute;
-  top: 7%;
+  top: 10%;
   right: 0%;
   z-index: 1009;
   padding: 5px;
 }
 
 #lockicon {
-  font-size: 30px;
+  font-size: 25px;
   /* color: hotpink; */
   /* font-weight: bold; */
 }
